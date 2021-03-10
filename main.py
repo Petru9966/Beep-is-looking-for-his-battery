@@ -18,6 +18,14 @@ if (answer=="yes"):
       print("I found a condom but not my battery!")
     else:
       print("I found some wet surfaces but not my battery!")
+  if ("answer==in the lab:"):
+    print("Where in the lab should I look?")
+    answer=input()
+    if (answer=="on the table"):
+      print("Yes! I found my battery!")
+    else:
+      print("Found some tools but not my battery!")
+            
 else:
   print("I will look for the battery without your help, human!")
-           
+
